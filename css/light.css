@@ -1,0 +1,111 @@
+#topnav {
+  background-color: #f9ff83; /* Background for the nav bar */
+}
+
+#back-to-top:hover {
+  /* styling for when you hover over the back to top button */
+  background-color: #eede53; /* Slightly different hover background */
+  color: #1f1e1e; /* Hover text color */
+}
+
+#topnav a {
+  color: #181717; /* Link text color */
+}
+
+body {
+  /* Base page styles */
+  background-color: #ecf4bc; /* Page background color */
+  font-family:
+    "Times New Roman", Arial, serif; /* Default font for the document */
+}
+
+#topnav {
+  /* Top navigation */
+  overflow: hidden; /* Prevents children from overflowing the nav area */
+}
+
+#topnav a {
+  /* Links inside the top navigation */
+  float: left; /* Float left to align links horizontally */
+  text-align: center; /* Center text inside the link area */
+  padding: 14px 16px; /* Space inside each link */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 17px; /* Font size for nav links */
+}
+
+#topnav a:hover {
+  /* Hover state for nav links */
+  background-color: rgb(224, 222, 99); /* Background color on hover */
+  color: black; /* Text color on hover */
+  outline: black solid 1px; /* Add a black border around the toggle */
+}
+
+#topnav a.active {
+  /* Active link in the nav */
+  background-color: #333; /* Background for the currently active link */
+  color: white; /* Text color for the active link */
+}
+
+.text-box-right {
+  /* Right-aligned text box */
+  background-color: #f9ff83; /* Box background color */
+  box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Subtle shadow under the box */
+}
+
+.text-box-left {
+  /* Left-aligned text box / card */
+  background-color: #f9ff83; /* Box background color */
+  box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Subtle shadow */
+}
+
+h1 {
+  /* Page-level h1 styling */
+  color: rgb(48, 47, 46); /* Heading color */
+}
+
+p {
+  /* Paragraph text styling */
+  color: rgb(48, 47, 46); /* Paragraph color */
+}
+
+#title {
+  color: rgb(48, 47, 46); /* Text color */
+  background-color: #f9ff83; /* Background color for the title box */
+  box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Shadow under the title box */
+}
+
+.heading {
+  color: rgb(48, 47, 46); /* Text color */
+  background-color: #f9ff83; /* Background for the heading box */
+  box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Shadow under the heading box */
+}
+
+#footer {
+  background-color: #f9ff83; /* Footer background */
+  color: #f2f2f2; /* Footer text color */
+}
+
+#back-to-top {
+  background-color: #fffa6f; /* Button background color */
+  color: #1f1e1e; /* Button text color */
+}
+
+#dark-mode-toggle {
+  background-color: #fffa6f; /* Background color */
+  color: #1f1e1e; /* Text color */
+}
+
+#dark-mode-toggle:hover {
+  /* Hover state for dark mode toggle */
+  background-color: #f2e14b; /* Hover background */
+  color: #1f1e1e; /* Hover text color */
+}
+
+img {
+  box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Shadow under images */
+}
+
+.fade-bottom {
+  mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+}

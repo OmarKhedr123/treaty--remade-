@@ -1,0 +1,141 @@
+#topnav {
+  /* Top navigation */
+  overflow: hidden; /* Prevents children from overflowing the nav area */
+}
+
+#topnav a {
+  /* Links inside the top navigation */
+  float: left; /* Float left to align links horizontally */
+  text-align: center; /* Center text inside the link area */
+  padding: 14px 16px; /* Space inside each link */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 17px; /* Font size for nav links */
+}
+
+.text-box-right {
+  /* Right-aligned text box */
+  width: 500px; /* Inner spacing between border and content */
+  padding: 15px; /* Box background color */
+  margin: 40px; /* Outer spacing around the box */
+  border-radius: 12px; /* Rounded corners */
+  display: flex; /* Use flexbox to align inner content */
+  align-items: center; /* Vertically center items inside the flex container */
+  text-align: center; /* Center text inside the box */
+  margin-left: 6cm; /* Left offset using a physical unit (centimeters) */
+}
+
+.text-box-left {
+  /* Left-aligned text box / card */
+  width: 500px; /* Fixed width of the box */
+  padding: 15px; /* Inner spacing */
+  margin: 40px; /* Outer spacing */
+  border-radius: 12px; /* Rounded corners */
+  text-align: center; /* Center text */
+  display: flex; /* Use flexbox to align content vertically */
+  align-items: center; /* Vertically center items */
+  margin-left: 5cm; /* Left offset using a physical unit (centimeters) */
+}
+
+#title {
+  /* Element with id "title" */
+  padding: 20px; /* Inner spacing */
+  text-align: center; /* Center text */
+  width: 200px; /* Fixed width */
+  border-radius: 12px; /* Rounded corners */
+  margin-left: 17cm; /* Left offset using centimeters */
+}
+
+.heading {
+  /* Generic heading styled as a box */
+  padding: 20px; /* Inner spacing */
+  text-align: center; /* Center text */
+  width: 200px; /* Fixed width */
+  border-radius: 12px; /* Rounded corners */
+  margin-left: 5cm; /* Left offset using centimeters */
+}
+
+#footer {
+  /* Footer element with id "footer" */
+  text-align: center; /* Center footer text */
+  padding: 10px; /* Inner padding */
+  left: 0; /* Align to left edge (no effect unless positioned) */
+  bottom: 0; /* Position at the bottom (no effect unless positioned) */
+  width: 100%; /* Make footer span full width */
+}
+
+#back-to-top {
+  /* Back to top button*/
+  position: fixed; /* Keep button fixed on the viewport */
+  bottom: 20px; /* Distance from bottom of viewport */
+  right: 20px; /* Distance from right of viewport */
+  outline: black solid 1px; /* Add a black border around the toggle */
+  padding: 10px; /* Inner padding */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline from link */
+}
+
+#dark-mode-toggle {
+  /* Dark mode toggle button */
+  position: fixed; /* Keep toggle fixed on the viewport */
+  bottom: 70px; /* Place above back-to-top button */
+  right: 20px; /* Distance from right of viewport */
+  padding: 10px; /* Inner padding */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  outline: black solid 1px; /* Add a black border around the toggle */
+}
+
+.image-side-by-side-with-text {
+  /* Container for an image placed next to text */
+  display: flex; /* Use flexbox to place image and text horizontally */
+  gap: 10px; /* Gap between image and text */
+  margin-right: 2cm; /* Right margin using centimeters */
+}
+
+img {
+  /* Generic image styling */
+  border-radius: 12px; /* Rounded corners on images */
+}
+
+.fade-bottom {
+  /* class to create a fade to transparent at the bottom of an image */
+  width: 100%; /* Make the image full width of its container */
+  height: auto; /* Maintain intrinsic height ratio for images */
+  display: block; /* Ensure it behaves like a block-level element */
+}
+
+h1 {
+  /* Styles for the main heading */
+  font-size: 2.5em; /* Large font size */
+  margin: 0; /* Remove default margin */
+  padding: 20px; /* Add padding */
+  text-align: center; /* Center the text */
+}
+
+p {
+  /* Styles for paragraphs */
+  font-size: 1.2em; /* Slightly larger font size for readability */
+  text-align: center;
+}
+
+h2 {
+  /* Styles for secondary headings */
+  font-size: 2em; /* Slightly smaller than main heading */
+  text-align: center; /* Center the text */
+}
+
+/* Advanced CSS  */
+
+@keyframes slideUpFadeIn {
+  start {
+    transform: translateY(
+      100px
+    ); /* Start 100px below where it would normally be */
+    opacity: 0; /* Start invisible */
+  }
+  end {
+    transform: translateY(0); /* End at original position */
+    opacity: 1; /* End fully visible */
+    transition: width 2s; /* So it transitions over 2 seconds */
+  }
+}

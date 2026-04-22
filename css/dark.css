@@ -1,0 +1,114 @@
+/* Body element: overall page background and default font */
+body {
+  background-color: #403e3e; /* sets the page background color (dark gray) */
+  font-family:
+    "Times New Roman", Arial, serif; /* Default font for the document */
+}
+
+/* Top navigation container */
+#topnav {
+  background-color: #b22e2e; /* background color for the nav bar */
+}
+
+/* Links inside the top navigation */
+#topnav a {
+  color: #cfcdcd; /* link text color */
+}
+
+/* Hover state for nav links */
+#topnav a:hover {
+  background-color: #b11d1d; /* darker background when hovered */
+  color: rgb(247, 230, 230); /* lighter text color on hover */
+  outline: black solid 1px; /* Add a black border around the toggle */
+}
+
+/* Active/selected nav link */
+#topnav a.active {
+  background-color: #333; /* different background to indicate active link */
+}
+
+/* Right-side text box container */
+.text-box-right {
+  background-color: #b22e2e; /* background color of the box */
+  box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* subtle shadow under the box */
+}
+
+/* Left-side text box container */
+.text-box-left {
+  background-color: #b22e2e; /* background color of the box */
+  box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* subtle shadow under the box */
+}
+
+.fade-bottom {
+  /* Standard mask-image creating gradient fade to transparent at bottom */
+  mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    transparent 100%
+  ); /* creates fade on standard-compliant browsers */
+  /* Vendor-prefixed version for WebKit-based browsers */
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    transparent 100%
+  ); /* WebKit mask for compatibility */
+}
+
+/* Heading level 1 (h1) color */
+h1 {
+  color: rgb(232, 223, 215); /* light text color for headings */
+}
+
+/* Paragraph (p) text color */
+p {
+  color: rgb(232, 223, 215); /* light text color for paragraphs */
+}
+
+/* Element with id "title" styling */
+#title {
+  color: rgb(232, 223, 215); /* text color */
+  background-color: #b22e2e; /* background color */
+  box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* subtle shadow under the title box */
+}
+
+/* Generic heading container */
+.heading {
+  color: rgb(232, 223, 215); /* text color */
+  background-color: #b22e2e; /* background color */
+  box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* subtle shadow under the heading box */
+}
+
+/* Footer container */
+#footer {
+  background-color: #b22e2e; /* footer background color */
+  color: #f2f2f2; /* footer text color */
+}
+
+/* Back-to-top button styling */
+#back-to-top {
+  background-color: #d42424; /* button background color */
+  color: #ded2d2; /* button text color */
+}
+
+/* Hover state for back-to-top button */
+#back-to-top:hover {
+  background-color: #b11d1d; /* darker background on hover */
+  color: #efefef; /* lighter text color on hover */
+}
+
+/* Dark mode toggle button styling */
+#dark-mode-toggle {
+  background-color: #d42424; /* background color for the toggle */
+  color: #ded2d2; /* text color for the toggle */
+}
+
+/* Hover state for dark mode toggle */
+#dark-mode-toggle:hover {
+  background-color: #b11d1d; /* darker background on hover */
+  color: #efefef; /* lighter text color on hover */
+}
+
+/* All images */
+img {
+  border-radius: 12px; /* rounded corners applied to images */
+}
