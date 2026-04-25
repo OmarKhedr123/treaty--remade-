@@ -112,3 +112,8 @@ p {
 img {
   border-radius: 12px; /* rounded corners applied to images */
 }
+
+.fade-bottom {
+  mask-image: linear-gradient(to bottom, black 0%, transparent 100%); /* provides a fade effect for images */
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%); /* Fade effect for images */
+}
