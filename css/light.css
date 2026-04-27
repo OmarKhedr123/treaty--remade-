@@ -2,19 +2,13 @@
   background-color: #f9ff83; /* Background for the nav bar */
 }
 
-#back-to-top:hover {
-  /* styling for when you hover over the back to top button */
-  background-color: #eede53; /* Slightly different hover background */
-  color: #1f1e1e; /* Hover text color */
-}
-
 #topnav a {
   color: #181717; /* Link text color */
 }
 
 body {
   /* Base page styles */
-  background-color: #ecf4bc; /* Page background color */
+  background-color: #fcffc7; /* Page background color */
   font-family:
     "Times New Roman", Arial, serif; /* Default font for the document */
 }
@@ -90,6 +84,11 @@ p {
   color: #1f1e1e; /* Button text color */
 }
 
+#back-to-top:hover {
+  background-color: #f2e14b;
+  color: #1f1e1e;
+}
+
 #dark-mode-toggle {
   background-color: #fffa6f; /* Background color */
   color: #1f1e1e; /* Text color */
@@ -106,6 +105,14 @@ img {
 }
 
 .fade-bottom {
-  mask-image: linear-gradient(to bottom, black 0%, transparent 100%); /* provides a fade effect for images */
-  -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%); /* Fade effect for images */
+  mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    transparent 100%
+  ); /* provides a fade effect for images */
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    transparent 100%
+  ); /* Fade effect for images */
 }

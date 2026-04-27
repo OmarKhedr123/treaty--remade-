@@ -9,7 +9,8 @@
   box-sizing: border-box; /* Include padding and border in width calculation */
 }
 
-html, body {
+html,
+body {
   /* Prevent horizontal scrolling on mobile */
   overflow-x: hidden; /* Hide any content that overflows horizontally */
   max-width: 100%; /* Maximum width is the viewport */
@@ -141,20 +142,21 @@ h2 {
 /* Mobile Responsive Styles - applies when screen is 768px or less */
 @media screen and (max-width: 768px) {
   /* Prevent horizontal scrolling on mobile */
-  html, body {
+  html,
+  body {
     overflow-x: hidden; /* Hide any horizontal overflow */
     max-width: 100vw; /* Ensure body doesn't exceed viewport width */
     width: 100%; /* Full width */
     margin: 0; /* Remove default margins */
     padding: 0; /* Remove default padding */
   }
-  
+
   /* Navigation - full width container */
   #topnav {
     width: 100%; /* Full width */
     overflow-x: hidden; /* Hide overflow */
   }
-  
+
   /* Navigation links - stack vertically instead of horizontal */
   #topnav a {
     float: none; /* Remove float to stack vertically */
@@ -164,7 +166,7 @@ h2 {
     padding: 12px; /* Inner spacing for each link */
     box-sizing: border-box; /* Include padding in width calculation */
   }
-  
+
   /* Text boxes - center on screen with flexible width */
   .text-box-right,
   .text-box-left {
@@ -174,7 +176,7 @@ h2 {
     margin: 10px auto !important; /* Center with auto margins - override all margins */
     padding: 10px; /* Reduced inner spacing */
   }
-  
+
   /* Title element - center with responsive width */
   #title {
     margin: 10px auto !important; /* Center with auto margins - override all margins */
@@ -183,7 +185,7 @@ h2 {
     box-sizing: border-box; /* Include padding in width */
     padding: 10px; /* Reduced inner spacing */
   }
-  
+
   /* Generic heading - center with responsive width */
   .heading {
     margin: 10px auto !important; /* Center with auto margins - override all margins */
@@ -192,7 +194,7 @@ h2 {
     box-sizing: border-box; /* Include padding in width */
     padding: 10px; /* Reduced inner spacing */
   }
-  
+
   /* Image with text container - stack vertically */
   .image-side-by-side-with-text {
     display: flex; /* Use flexbox */
@@ -204,7 +206,7 @@ h2 {
     width: 100%; /* Full width */
     box-sizing: border-box; /* Include padding in width */
   }
-  
+
   /* Images inside container - full width */
   .image-side-by-side-with-text img {
     width: 100% !important; /* Full container width - force override */
@@ -214,7 +216,7 @@ h2 {
     padding: 0; /* Remove padding */
     box-sizing: border-box; /* Include padding in width */
   }
-  
+
   /* Generic images - full width */
   img {
     max-width: 100%; /* Don't exceed viewport */
@@ -222,7 +224,7 @@ h2 {
     height: auto; /* Maintain aspect ratio */
     display: block; /* Block display */
   }
-  
+
   /* Main heading - reduce size for mobile */
   h1 {
     font-size: 1.8em; /* Smaller font size */
@@ -232,7 +234,7 @@ h2 {
     box-sizing: border-box; /* Include padding in width */
     margin: 0; /* Remove default margin */
   }
-  
+
   /* Secondary heading - reduce size for mobile */
   h2 {
     font-size: 1.5em; /* Smaller font size */
@@ -242,7 +244,7 @@ h2 {
     margin: 0; /* Remove default margin */
     padding: 10px; /* Reduced inner spacing */
   }
-  
+
   /* Paragraphs - reduce size and add horizontal padding */
   p {
     font-size: 1em; /* Base font size */
@@ -252,7 +254,7 @@ h2 {
     box-sizing: border-box; /* Include padding in width */
     margin: 0; /* Remove default margin */
   }
-  
+
   /* Fixed buttons - move closer to corner */
   #back-to-top,
   #dark-mode-toggle {
@@ -263,12 +265,12 @@ h2 {
     box-sizing: border-box; /* Include padding in width */
     z-index: 9999; /* Ensure buttons stay on top */
   }
-  
+
   /* Dark mode toggle - position above back-to-top */
   #dark-mode-toggle {
     bottom: 55px; /* Position above back-to-top button */
   }
-  
+
   /* Footer - full width */
   #footer {
     width: 100%; /* Full width */
