@@ -27,44 +27,44 @@ body {
 
 .text-box-right {
   /* Right-aligned text box */
-  width: 500px; /* Fixed width */
-  padding: 15px; /* Inner spacing */
-  margin: 40px; /* Outer spacing */
+  width: 30%; /* width of the box*/
+  padding: 1%; /* Inner spacing */
+  margin: 3%; /* Outer spacing */
   border-radius: 12px; /* Rounded corners */
   display: flex; /* Use flexbox */
   align-items: center; /* Vertically center */
   text-align: center; /* Center text */
-  margin-left: 6cm; /* Left offset */
+  margin-left: 15%; /* Left offset */
 }
 
 .text-box-left {
   /* Left-aligned text box / card */
-  width: 500px; /* Fixed width */
-  padding: 15px; /* Inner spacing */
-  margin: 40px; /* Outer spacing */
+  width: 30%; /* width of the box*/
+  padding: 1%; /* Inner spacing */
+  margin: 3%; /* Outer spacing */
   border-radius: 12px; /* Rounded corners */
-  text-align: center; /* Center text */
   display: flex; /* Use flexbox */
   align-items: center; /* Vertically center */
-  margin-left: 5cm; /* Left offset */
+  text-align: center; /* Center text */
+  margin-left: 15%; /* Left offset */
 }
 
 #title {
   /* Element with id "title" */
-  padding: 20px; /* Inner spacing */
+  padding: 1%; /* Inner spacing */
   text-align: center; /* Center text */
-  width: 300px; /* Fixed width */
+  width: 30%; /* Fixed width */
   border-radius: 12px; /* Rounded corners */
-  margin-left: 16cm; /* Left offset */
+  margin-left: 17%; /* Left offset */
 }
 
 .heading {
   /* Generic heading styled as a box */
-  padding: 20px; /* Inner spacing */
+  padding: 1%; /* Inner spacing */
   text-align: center; /* Center text */
-  width: 300px; /* Fixed width */
+  width: 25%; /* Fixed width */
   border-radius: 12px; /* Rounded corners */
-  margin-left: 5cm; /* Left offset */
+  margin-left: 15%; /* Left offset */
 }
 
 #footer {
@@ -101,8 +101,6 @@ body {
 .image-side-by-side-with-text {
   /* Container for image next to text */
   display: flex; /* Flexbox layout */
-  gap: 10px; /* Gap between items */
-  margin-right: 2cm; /* Right margin */
 }
 
 img {
@@ -140,15 +138,15 @@ h2 {
 }
 
 /* Mobile Responsive Styles - applies when screen is 768px or less */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   /* Prevent horizontal scrolling on mobile */
   html,
   body {
     overflow-x: hidden; /* Hide any horizontal overflow */
     max-width: 100vw; /* Ensure body doesn't exceed viewport width */
     width: 100%; /* Full width */
-    margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default padding */
+    margin: 0%; /* Remove default margins */
+    padding: 0%; /* Remove default padding */
   }
 
   /* Navigation - full width container */
@@ -212,7 +210,7 @@ h2 {
     width: 100% !important; /* Full container width - force override */
     max-width: 100%; /* Don't exceed viewport */
     height: auto; /* Maintain aspect ratio */
-    margin: 0; /* Remove margins */
+    margin: 0%; /* Remove margins */
     padding: 0; /* Remove padding */
     box-sizing: border-box; /* Include padding in width */
   }
@@ -223,6 +221,7 @@ h2 {
     width: 100%; /* Full width */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Block display */
+    margin: 0%;
   }
 
   /* Main heading - reduce size for mobile */

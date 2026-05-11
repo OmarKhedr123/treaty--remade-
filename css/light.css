@@ -3,12 +3,13 @@
 }
 
 #topnav a {
+  quotes: none;
   color: #181717; /* Link text color */
 }
 
 body {
   /* Base page styles */
-  background-color: #fcffc7; /* Page background color */
+  background-color: #f4f8b1; /* Page background color */
   font-family:
     "Times New Roman", Arial, serif; /* Default font for the document */
 }
@@ -29,7 +30,7 @@ body {
 
 #topnav a:hover {
   /* Hover state for nav links */
-  background-color: rgb(224, 222, 99); /* Background color on hover */
+  background-color: rgb(228, 226, 104); /* Background color on hover */
   color: black; /* Text color on hover */
   outline: black solid 1px; /* Add a black border around the toggle */
 }
@@ -42,13 +43,13 @@ body {
 
 .text-box-right {
   /* Right-aligned text box */
-  background-color: #f9ff83; /* Box background color */
+  background-color: #f9ff8f; /* Box background color */
   box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Subtle shadow under the box */
 }
 
 .text-box-left {
   /* Left-aligned text box / card */
-  background-color: #f9ff83; /* Box background color */
+  background-color: #f9ff8f; /* Box background color */
   box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Subtle shadow */
 }
 
@@ -64,18 +65,18 @@ p {
 
 #title {
   color: rgb(48, 47, 46); /* Text color */
-  background-color: #f9ff83; /* Background color for the title box */
+  background-color: #f9ff8f; /* Background color for the title box */
   box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Shadow under the title box */
 }
 
 .heading {
   color: rgb(48, 47, 46); /* Text color */
-  background-color: #f9ff83; /* Background for the heading box */
+  background-color: #f9ff8f; /* Background for the heading box */
   box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Shadow under the heading box */
 }
 
 #footer {
-  background-color: #f9ff83; /* Footer background */
+  background-color: #f9ff8f; /* Footer background */
   color: #f2f2f2; /* Footer text color */
 }
 
