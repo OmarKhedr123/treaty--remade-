@@ -17,7 +17,7 @@ body {
 
 /* Hover state for nav links */
 #topnav a:hover {
-  background-color: #b11d1d; /* darker background when hovered */
+  background-color: #951b1b; /* darker background when hovered */
   color: rgb(247, 230, 230); /* lighter text color on hover */
   outline: black solid 1px; /* Add a black border around the toggle */
 }
@@ -92,7 +92,7 @@ p {
 
 /* Hover state for back-to-top button */
 #back-to-top:hover {
-  background-color: #b11d1d; /* darker background on hover */
+  background-color: #8c1717; /* darker background on hover */
   color: #efefef; /* lighter text color on hover */
 }
 
@@ -104,7 +104,7 @@ p {
 
 /* Hover state for dark mode toggle */
 #dark-mode-toggle:hover {
-  background-color: #b11d1d; /* darker background on hover */
+  background-color: #8c1717; /* darker background on hover */
   color: #efefef; /* lighter text color on hover */
 }
 
@@ -114,6 +114,14 @@ img {
 }
 
 .fade-bottom {
-  mask-image: linear-gradient(to bottom, black 0%, transparent 100%); /* provides a fade effect for images */
-  -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%); /* Fade effect for images */
+  mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    transparent 100%
+  ); /* provides a fade effect for images */
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    transparent 100%
+  ); /* Fade effect for images */
 }

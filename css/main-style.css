@@ -138,7 +138,7 @@ h2 {
 }
 
 /* Mobile Responsive Styles - applies when screen is 768px or less */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   /* Prevent horizontal scrolling on mobile */
   html,
   body {

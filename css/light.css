@@ -1,5 +1,5 @@
 #topnav {
-  background-color: #f9ff83; /* Background for the nav bar */
+  background-color: #80a1ba; /* Background for the nav bar */
 }
 
 #topnav a {
@@ -9,7 +9,7 @@
 
 body {
   /* Base page styles */
-  background-color: #f4f8b1; /* Page background color */
+  background-color: #fef5d6; /* Page background color */
   font-family:
     "Times New Roman", Arial, serif; /* Default font for the document */
 }
@@ -30,7 +30,7 @@ body {
 
 #topnav a:hover {
   /* Hover state for nav links */
-  background-color: rgb(228, 226, 104); /* Background color on hover */
+  background-color: #4b7697; /* Background color on hover */
   color: black; /* Text color on hover */
   outline: black solid 1px; /* Add a black border around the toggle */
 }
@@ -43,13 +43,13 @@ body {
 
 .text-box-right {
   /* Right-aligned text box */
-  background-color: #f9ff8f; /* Box background color */
+  background-color: #91c4c3; /* Box background color */
   box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Subtle shadow under the box */
 }
 
 .text-box-left {
   /* Left-aligned text box / card */
-  background-color: #f9ff8f; /* Box background color */
+  background-color: #91c4c3; /* Box background color */
   box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Subtle shadow */
 }
 
@@ -65,39 +65,39 @@ p {
 
 #title {
   color: rgb(48, 47, 46); /* Text color */
-  background-color: #f9ff8f; /* Background color for the title box */
+  background-color: #91c4c3; /* Background color for the title box */
   box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Shadow under the title box */
 }
 
 .heading {
   color: rgb(48, 47, 46); /* Text color */
-  background-color: #f9ff8f; /* Background for the heading box */
+  background-color: #91c4c3; /* Background for the heading box */
   box-shadow: 0 2px 6px rgba(24, 23, 23, 0.25); /* Shadow under the heading box */
 }
 
 #footer {
-  background-color: #f9ff8f; /* Footer background */
+  background-color: #80a1ba; /* Footer background */
   color: #f2f2f2; /* Footer text color */
 }
 
 #back-to-top {
-  background-color: #fffa6f; /* Button background color */
+  background-color: #b4debd; /* Button background color */
   color: #1f1e1e; /* Button text color */
 }
 
 #back-to-top:hover {
-  background-color: #f2e14b;
+  background-color: #73917a;
   color: #1f1e1e;
 }
 
 #dark-mode-toggle {
-  background-color: #fffa6f; /* Background color */
+  background-color: #b4debd; /* Background color */
   color: #1f1e1e; /* Text color */
 }
 
 #dark-mode-toggle:hover {
   /* Hover state for dark mode toggle */
-  background-color: #f2e14b; /* Hover background */
+  background-color: #73917a; /* Hover background */
   color: #1f1e1e; /* Hover text color */
 }
 
