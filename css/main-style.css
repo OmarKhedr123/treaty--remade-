@@ -66,7 +66,24 @@ body {
   border-radius: 12px; /* Rounded corners */
   margin-left: 15%; /* Left offset */
 }
+/* Responsive root size: min, preferred (viewport), max */
+:root {
+  font-size: clamp(14px, 1.6vw, 18px);
+}
 
+/* Use rem units so text scales with the root */
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.2rem;
+}
+#topnav a {
+  font-size: 1rem;
+}
 #footer {
   /* Footer element with id "footer" */
   text-align: center; /* Center footer text */
@@ -101,6 +118,7 @@ body {
 .image-side-by-side-with-text {
   /* Container for image next to text */
   display: flex; /* Flexbox layout */
+  gap: 10%;
 }
 
 img {
@@ -119,7 +137,6 @@ img {
 
 h1 {
   /* Styles for the main heading */
-  font-size: 2.5em; /* Large font size */
   margin: 0; /* Remove default margin */
   padding: 20px; /* Add padding */
   text-align: center; /* Center the text */
@@ -127,13 +144,11 @@ h1 {
 
 p {
   /* Styles for paragraphs */
-  font-size: 1.2em; /* Slightly larger font size for readability */
   text-align: center; /* Center the text */
 }
 
 h2 {
   /* Styles for secondary headings */
-  font-size: 2em; /* Slightly smaller than main heading */
   text-align: center; /* Center the text */
 }
 
@@ -147,6 +162,7 @@ h2 {
     width: 100%; /* Full width */
     margin: 0%; /* Remove default margins */
     padding: 0%; /* Remove default padding */
+    border: 0%;
   }
 
   /* Navigation - full width container */
@@ -221,7 +237,9 @@ h2 {
     width: 100%; /* Full width */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Block display */
-    margin: 0%;
+    margin: 0% !important;
+    border: 0%;
+    padding: 0%;
   }
 
   /* Main heading - reduce size for mobile */
