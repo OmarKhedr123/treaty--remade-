@@ -74,12 +74,15 @@ body {
 /* Use rem units so text scales with the root */
 h1 {
   font-size: 2.5rem;
+  line-height: 100%;
 }
 h2 {
   font-size: 2rem;
+  line-height: 100%;
 }
 p {
   font-size: 1.2rem;
+  line-height: 100%;
 }
 #topnav a {
   font-size: 1rem;
